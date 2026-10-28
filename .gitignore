@@ -1,0 +1,40 @@
+.venv/
+__pycache__/
+*.py[cod]
+artifacts/
+build/
+dist/
+
+# Test / lint / coverage caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python packaging
+*.egg-info/
+.eggs/
+
+# Local environment / secrets
+.env
+.env.*
+
+# Local runtime data (task DB / exported backups)
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Logs
+*.log
+*.bak
+*.tmp
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
